@@ -17,7 +17,7 @@ klic = sifra.copy()
 random.shuffle(klic)
 
 #sifrovani
-sifrovani = Getinput("Enter your message")
+sifrovani = Getinput("Enter your message: ")
 desifrovani = ""
 
 for letter in sifrovani:
@@ -29,7 +29,7 @@ print(f"encryptovaná zpráva: {desifrovani}")
 
 
 #desifrovana zprava
-desifrovani = Getinput("Enter encrypted message")
+desifrovani = Getinput("Enter encrypted message: ")
 sifrovani = ""
 
 for letter in desifrovani:
